@@ -1,0 +1,110 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-box {
+    border:1px solid black;
+    width: 450px;
+    padding: 10px;
+}
+
+#field {
+    padding: 5px;
+    text-align: left;
+}
+
+#field_data {
+    text-align: left;
+}
+
+#field_data p{
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+.add_btn {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(252, 240, 240);
+    padding: 6px;
+    cursor: pointer;
+}
+
+.add_btn:hover{
+    opacity: 0.8;
+}
+
+.id-card {
+    border-radius: 5px;
+    border:1px solid black;
+    width: 450px;
+   
+}
+
+.box {
+    
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.photo {
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    margin-left: 30px;
+}
+
+
+.popup-wrapper {
+    display: none; 
+    position: fixed;
+    z-index: 999; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+}
+
+
+.popup-content {
+    background-color: #8a7474;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 600px;
+	position:relative;
+}
+
+
+.close {
+    color: #856b6b;
+    float: right;
+    font-size: 21px;
+    background: rgb(158, 134, 134);
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 2px 5px;
+    border: 1px #574646 solid;
+    font-family: arial;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+body{
+    padding:10px;
+    text-align:center;
+    background-image: d;
+  }
+  #att_barcode{
+    width:440px;
+    height:33px;
+  }
+  #result{
+    border-top:solid  2px #aaa;
+    margin:20px;
+    padding:20px;
+  }
