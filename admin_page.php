@@ -5,7 +5,7 @@
 session_start();
 
 if (!isset($_SESSION['admin_name'])) {
-   header('location:login_form.php');
+   header('location:index.php');
 }
 
 
@@ -96,7 +96,7 @@ if (!isset($_SESSION['admin_name'])) {
          </ul>
          <ul>
             <li class="darkerli">
-               <a href="index.php">
+               <a href="cetakbarcode.php">
                <i class="fa fa-envelope-o fa-lg"></i>
                   <span class="nav-text">Barcode</span>
                </a>

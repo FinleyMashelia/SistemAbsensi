@@ -25,7 +25,7 @@ if(isset($_POST['submit'])){
       }else{
          $insert = "INSERT INTO user_form(name, email, password, user_type) VALUES('$name','$email','$pass','$user_type')";
          mysqli_query($conn, $insert);
-         header('location:login_form.php');
+         header('location:index.php');
       }
    }
 
@@ -64,10 +64,10 @@ if(isset($_POST['submit'])){
       <input type="password" name="cpassword" required placeholder="konfirmasi sandi kamu">
       <select name="user_type">
          <option value="user">Magang</option>
-         <option value="admin">admin (nanti bakal dihilangin jadi buat admin baru lewat data base aja)</option>
+         <!-- <option value="admin"></option> -->
       </select>
       <input type="submit" name="submit" value="register now" class="form-btn">
-      <p>apa kamu sudah memiliki akun? <a href="login_form.php">ayo masuk</a></p>
+      <p>apa kamu sudah memiliki akun? <a href="index.php">ayo masuk</a></p>
    </form>
 
 </div>
